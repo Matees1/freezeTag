@@ -1,0 +1,44 @@
+name: party
+version: ${project.version}
+main: net.matees.Main
+api-version: 1.16
+authors: [ matees, vamai, bobchebeles, dkvkarma, mictest, technodroidx ]
+description: This is a birthday party for egg
+website: net.matees
+
+commands:
+  setStartLocationHere:
+    description: This plugin will set the starting place for the birthday party.
+
+  tpAllStart:
+    description: This will teleport the players to the start location.
+
+  startFreezeTag:
+    description: This will start the freeze tag game.
+
+  setFreezeTagLocation:
+    description: This will set the freeze tag location.
+
+  setIt:
+    description: This will set the specified player to be it.
+
+  removeIt:
+    description: This will remove the specifed player from being.
+
+  stopFreezeTag:
+    description: This will stop the freeze tag game.
+
+  toggleGameMM:
+    description: This will toggle the MM game.
+
+  checkRunningMM:
+    description: This will check if the MM game is running.
+
+  giveMMRole:
+    description: This will give a role to a player.
+
+  checkRoles:
+    description: This will check the roles that are active.
+
+  giveRole:
+    description: This will give a role to the specified player, or the player that sent the command.
